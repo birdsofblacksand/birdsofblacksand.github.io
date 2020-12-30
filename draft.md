@@ -47,7 +47,7 @@ Our Goblin has a modifier of **-4**, and our Ogre has a modifier of **+4**.  Aft
 
 Looking at the odds, though, our [Ogre will roll above the Goblin ~81% of the time](https://anydice.com/program/1f8b3).  But our Ogre is a beefcake and the Goblin is puny - how could the Goblin still win ~17% of the time?  
 
-Well, our modifier is compressing our ability scores from 3-18 into a relatively small range of modifiers, and we lose granularity.  For example, 10 vs. 13 STR is mechanically identical to 11 vs. 12 STR.  This compression becomes particularly evident with opposed rolls.
+Well, this process is compressing our ability scores from 3-18 into a relatively small range of modifiers, and we lose granularity.  For example, 10 vs. 13 STR is mechanically identical to 11 vs. 12 STR.  This compression becomes particularly evident with opposed rolls.
 
 ### Roll-Under: Rolling directly against our STR
 
@@ -67,7 +67,7 @@ There's another d20 mechanic called **roll-high-under**, used most notably in ol
 
 Unlike roll-under systems, we can resolve our opposed rolls if both succeed - the higher roll wins.  With roll-high-under, [our Goblin now only wins ~9% of the time](https://anydice.com/program/1f8c5), which feels a little more reasonable.
 
-Roll-high-under has other perks - see Whitehack's slick handling of Armor Class - but it's not without its faults.  For example, what happens if both contestants fail their rolls?  We might say the contestants are locked in struggle, and have them both reroll.  But imagine two STR 3 Goblins - [they'll both fail their STR check 72% of the time](https://anydice.com/program/1f8c7), and so might require several rerolls to determine a winner.
+Roll-high-under has other perks - see Whitehack's slick handling of Armor Class - but it's not without its faults.  For example, what happens if both contestants fail their rolls?  We might say the contestants are locked in struggle, and have them both reroll.  But imagine two STR 3 Goblins - [they'll both fail their STR check 72% of the time](https://anydice.com/program/1f8c7), and will require ~4 rolls on average to determine a winner.
 
 But there's another, more practical problem with roll-high-under systems.  Despite its elegance, roll-high-under can be slow and unintuitive for players at the table.
 
@@ -81,7 +81,7 @@ Not just any hero either, but a Player Character, who's sitting at our game tabl
 
 Consider the case where the Goblin wins.  Sure, it's unlikely, but entirely possible.  So the GM explains: the Goblin and Ogre compete, and the Goblin emerges victorious.
 
-The players look at the GM - huh?  Why did the Ogre lose?  _Why_ did the Goblin win?  "He just got lucky with the dice" is not a satisfactory explanation.
+The players look at the GM - huh?  How did the Ogre lose?  _Why_ did the Goblin win?  "He just got lucky with the dice" is not a satisfactory explanation.
 
 The fiction matters.  Think quick.
 
