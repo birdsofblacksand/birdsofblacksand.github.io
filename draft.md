@@ -35,18 +35,18 @@ But how do we incorporate our **STR** stat?
 
 In modern D&D (5e/4e/Pathfinder), first we convert our stat into an **modifier**, ranging from +4 to -4, which we add to the roll.
 
-We calculate our modifier by subtracting 10 from our stat, dividing by 2, and rounding down (`FLOOR( (stat - 10) / 2 )`), like so:
+We calculate our modifier by subtracting 10 from our stat, dividing by 2, and rounding down, like so:
 
-| STR | Mod | | STR | Mod |
-|-----|-----| |-----|-----|
-|  3  | -4  | | 11  |  0  |
-|  4  | -3  | | 12  |  1  |
-|  5  | -3  | | 13  |  1  |
-|  6  | -2  | | 14  |  2  |
-|  7  | -2  | | 15  |  2  |
-|  8  | -1  | | 16  |  3  |
-|  9  | -1  | | 17  |  3  |
-| 10  |  0  | | 18  |  4  |
+| STR | Mod | STR | Mod |
+|-----|-----|-----|-----|
+|  3  | -4  | 11  |  0  |
+|  4  | -3  | 12  |  1  |
+|  5  | -3  | 13  |  1  |
+|  6  | -2  | 14  |  2  |
+|  7  | -2  | 15  |  2  |
+|  8  | -1  | 16  |  3  |
+|  9  | -1  | 17  |  3  |
+| 10  |  0  | 18  |  4  |
 
 When two characters roll against each other (an opposed check), the highest roll wins.
 
