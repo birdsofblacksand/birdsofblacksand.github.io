@@ -47,7 +47,7 @@ Our Goblin has a modifier of **-4**, and our Ogre has a modifier of **+4**.  Aft
 
 Looking at the odds, though, our [Ogre will roll above the Goblin ~81% of the time](https://anydice.com/program/1f8b3).  But our Ogre is a beefcake and the Goblin is puny - how could the Goblin still win ~17% of the time?  
 
-Well, our modifier is compressing our ability scores across the 3-18 range, and we lose granularity.  10 vs. 13 STR is the mechanically identical to 11 vs. 12 STR, and this compression becomes particularly evident with opposed rolls.
+Well, our modifier is compressing our ability scores across the 3-18 range, and we lose granularity.  For example, 10 vs. 13 STR is mechanically identical to 11 vs. 12 STR.  This compression becomes particularly evident with opposed rolls.
 
 ### Roll-Under: Rolling directly against our STR
 
@@ -73,7 +73,7 @@ But there's another, more practical problem with roll-high-under systems.  Despi
 
 For example, how do we handle critical successes and fumbles?  In a roll-high system, rolling 20 is best and 1 is worst.  For roll-under systems, this is reversed - 1 good, 20 bad.  (This can be an adjustment for players raised on modern D&D, but it's still immediately recognizable the moment the die finishes rolling.)
 
-But for roll-high-under systems, a critical success is *rolling your ability score exactly*.  This might be recognizable to the player who rolled it, but often results in them double-checking their character sheet, and means a delayed reaction at best for the rest of the table.
+But for roll-high-under systems, a critical success is *rolling your ability score exactly*.  This might be recognizable to the player who rolled it, but often results in them double-checking their character sheet, and means a delayed reaction at best for the rest of the table.  It's a small detail, but can make a big difference in the energy and excitement of rolling dice.
 
 ### A hero walks into the bar..
 
@@ -88,7 +88,7 @@ The fiction matters.  Think quick.
 * Maybe the Goblin had an incredible breakfast that morning.
 * Maybe the Goblin spotted his long-lost father in the crowd.
 * Maybe the Goblin's favorite song just came on the jukebox.
-* Maybe the Ogre had bad sushi for lunch.
+* Maybe the Ogre ate bad sushi for lunch.
 * Maybe the Ogre just remembered she left her front door unlocked.
 * Maybe the Ogre is on a ten-match losing streak and has a terrible case of The Yips.
 
@@ -125,11 +125,11 @@ So here is our predicament:
 
 So much of the math here is complicated by comparing the outcome of two opposed rolls.  What if we ditch it?
 
-After all, we only really *need* the Player to roll - the Goblin and Ogre are just NPCs.  As long as the odds still make sense, this would greatly simplifies our procedure.  Is it possible for their roll alone to determine the outcome?
+After all, we only really *need* the Player to roll - the Goblin and Ogre are just NPCs.  As long as the odds still make sense, this would greatly simplifies our procedure.  Is it possible for the Player's roll alone to determine the outcome?
 
 In fact, this approach works pretty well with ability score modifiers.  The GM just sets a static target to beat (Difficulty Class, or **DC**) for each opponent - a low DC for Goblin and a high DC for the Ogre.  We could even use their opponent's STR as DC!  This gives us [a 90% chance of beating the Goblin and a 15% chance of beating the Ogre](https://anydice.com/program/1f981).  To me, this feels much more plausible than the opposed modifier odds, with a much simpler process to boot.
 
-The main flaw with this approach is the same as before - our modifier lacks granularity.  We only see a 5% difference in odds between a STR 10 (+0) and a STR 13 (+1) character.
+The main flaw with this approach is the same as before - our modifier lacks granularity.  We only see a 5% difference between a STR 10 (+0) and a STR 13 (+1) character.
 
 And as players get stronger, it also becomes impossible for the player to miss the DC: a 14 STR Player (+2) can't get less than a 3, so why bother rolling against the Goblin?  This is actually a pretty reasonable outcome - we could leave the door open for critical failures (1-in-20, or 5%), but otherwise guarantee a victory.
 
@@ -172,17 +172,20 @@ When my Player sizes up the Goblin, I'll say something like this:
 > If you roll a critical failure?  He wins somehow, and you'll never hear the end of it.
 
 There are several perks to this approach:
+
 * The math is simple enough to calculate the odds on the fly, with no ties or rerolls.
 * No need for ability scores for NPCs, just a sense of what _ought_ to happen.
 * It still leaves the door for unlikely upsets at a static 5%.
 
-This also dovetails nicely with Electric Bastionland's "ability loss" mechanic, where ability scores are temporarily lowered as players take damage - so a good night's sleep could very well be the difference between winning and losing.
+Is this the most accurate way to model this encounter?  Not particularly.  But to me, these are stakes that sound fun and memorable for the Player, and I'm willing to sacrifice precision for compelling story outcomes that still feel fair enough.
+
+This approach also dovetails nicely with Electric Bastionland's "ability loss" mechanic, where ability scores are temporarily lowered as players take damage - so a good night's sleep could very well be the difference between winning and losing.
 
 ### Do we really need opposed rolls?
 
-Today, this is the approach I use.  I love how fast it is, how easy it is to calculate odds on the fly, and how it prioritizes GM judgement to ensure fictional outcomes that make sense.
+Today, this is the approach I use.  I love how fast it is, how straightforward it is to calculate odds on the fly, and how it prioritizes GM judgement to ensure fictional outcomes that make sense.
 
-I also love to offer hard choices and make deals with players, which I find more engaging than just jumping straight to a d20 roll.
+I also love to offer tough choices and make deals with players, which I find more engaging than just jumping straight to a d20 roll.
 
 Granted, this might not work for everyone!  My games typically prioritize tempo, player choice, and managing risk - so quick, intuitive, player-facing rolls work well for me.  But more simulation-minded tables will probably want to invest in a system with robust dice mechanics - and there are a LOT of options beyond a single d20.
 
