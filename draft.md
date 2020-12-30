@@ -17,7 +17,7 @@ In the first corner, this pitiful little Goblin!
 
 In the next corner, this mighty Ogre!
 
-![A massive, flexing ogre](/images/ogre.png)
+![A massive, flexing ogre](/images/ogre.jpg)
 
 * She rolled all 6s on her 3d6 strength roll
 * She's as strong as the strongest 6.25% of humans
