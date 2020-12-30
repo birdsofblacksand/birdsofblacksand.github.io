@@ -47,7 +47,7 @@ Our Goblin has a modifier of **-4**, and our Ogre has a modifier of **+4**.  Aft
 
 Looking at the odds, though, our [Ogre will roll above the Goblin ~81% of the time](https://anydice.com/program/1f8b3).  But our Ogre is a beefcake and the Goblin is puny - how could the Goblin still win ~17% of the time?  
 
-Well, this process is compressing our ability scores from 3-18 into a relatively small range of modifiers, and we lose granularity.  For example, 10 vs. 13 STR is mechanically identical to 11 vs. 12 STR.  This compression becomes particularly evident with opposed rolls.
+Well, this process is compressing our ability scores from 3-18 into a relatively small range of modifiers, and we lose granularity.  For example, STR 10 vs. STR 13 is mechanically identical to STR 11 vs. STR 12.  This compression becomes particularly evident with opposed rolls.
 
 ### Roll-Under: Rolling directly against our STR
 
@@ -59,7 +59,7 @@ Can we use roll-under for opposed checks?  If the Goblin and Ogre both roll STR 
 
 But what if they both pass, or both fail?  If our Ogre and Goblin both roll a 1, who wins?
 
-We could add some kind of tiebreaker, say, comparing STR scores, whenever both contestants pass or fail. But this chance of tiebreakers increases as the STR spread narrows.  [A 17 STR Ogre and 18 STR Ogre will tie 78% of the time](https://anydice.com/program/1f8c1).  We'd expect the odds for these Ogres to be near 50/50, but instead the 18 STR Ogre will win 92% of the time.
+We could add some kind of tiebreaker, say, comparing STR scores, whenever both contestants pass or fail. But this chance of tiebreakers increases as the STR spread narrows.  [A STR 17 Ogre and STR 18 Ogre will tie 78% of the time](https://anydice.com/program/1f8c1).  We'd expect the odds for these Ogres to be near 50/50, but instead the STR 18 Ogre will win 92% of the time.
 
 ### Roll-High-Under: Ability Score Blackjack
 
@@ -131,7 +131,7 @@ In fact, this approach works pretty well with ability score modifiers.  The GM j
 
 The main flaw with this approach is the same as before - our modifier lacks granularity.  We only see a 5% difference between a STR 10 (+0) and a STR 13 (+1) character.
 
-And as players get stronger, it also becomes impossible for the player to miss the DC: a 14 STR Player (+2) can't get less than a 3, so why bother rolling against the Goblin?  This is actually a pretty reasonable outcome - we could leave the door open for critical failures (1-in-20, or 5%), but otherwise guarantee a victory.
+And as players get stronger, it also becomes impossible for the player to miss the DC: a STR 14 Player (+2) can't get less than a 3, so why bother rolling against the Goblin?  This is actually a pretty reasonable outcome - we could leave the door open for critical failures (1-in-20, or 5%), but otherwise guarantee a victory.
 
 ### How about roll-under systems?
 
