@@ -191,6 +191,6 @@ I also love to offer tough choices and make deals with players, which I find mor
 
 Granted, this might not work for everyone!  My games typically prioritize tempo, player choice, and managing risk - so quick, intuitive, player-facing rolls work well for me.  But more simulation-minded tables will probably want to invest in a system with robust dice mechanics - and there are a LOT of options beyond a single d20.
 
-That being said, there is still ONE case where I will pull out the roll-high-under opposed roll - player-vs-player contests.  What's the alternative.. both players expect to roll!  But this case is so exceedingly rare that I'm happy to let them roll for it - and things like "ties" provide meaningful narrative opportunities to intervene.
+That being said, there is still ONE case where I will pull out the roll-high-under opposed roll - player-vs-player contests.  What alternative do I have - both players expect to roll!  But this case is so exceedingly rare that I'm happy to let them go for it - and things like "ties" provide meaningful narrative opportunities to intervene.
 
-What do you like?  What's worked for you?
+What have you tried?  What's worked for you?
