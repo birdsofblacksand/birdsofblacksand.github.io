@@ -34,12 +34,10 @@ title: The All-Stock Arm Wrestling Championship
     * So, our Goblin has a modifier of -4, and our Ogre has a modifier of +4.
     * So, our final rolls: Goblin rolls **9**, and Ogre rolls **17** - the Ogre wins!
 
-* So what are the odds?
-    * It turns out, our [Ogre will roll above the Goblin ~80% of the time](https://anydice.com/program/1f8b3) (thanks AnyDice!)
-    * But our Ogre is an absolute beefcake, and the Goblin is absolutely puny.  How can we shift these odds?
-    * Well, what if we don't divide our modifier by 2?  That puts our Goblin at -7, and our Ogre at +8.
-    * Now, our [Ogre beats the Goblin ~96% of the time](https://anydice.com/program/1f8b6).
-    * The Goblin still has a chance, but it's _extremely_ unlikely.  Sounds about right, at least in our absurd example.
+* Looking at the odds
+    * It turns out, our [Ogre will roll above the Goblin ~81% of the time](https://anydice.com/program/1f8b3) (thanks AnyDice!)
+    * But our Ogre is an absolute beefcake, and the Goblin is absolutely puny - how could the Goblin still win ~17% of the time?
+    * Our modifier is compressing skill across our natural 3-18 range, and this is particularly evident with opposed rolls.
 
 * Pros and Cons of Ability Modifiers
     * Pro: rolling "higher is better" is quite intuitive
@@ -78,8 +76,8 @@ title: The All-Stock Arm Wrestling Championship
 
 * But there's another, more practical problem with roll-high-under systems - they can be unintuitive for players at the table.
     * For example, how do we handle a critical successes and fumbles?  In a roll-high system, rolling 20 is best and 1 is worst.
-    * For roll-under systems, this is reversed - less popular today, but still immediately recognizable the moment the die finishes rolling.
-    * For roll-high-under systems, a critical success is *rolling your stat exactly*.
+    * For roll-under systems, this is reversed - less popular today, but still immediately recognizable the moment the die finishes rolling.  1 good, 20 bad.
+    * But for roll-high-under systems, a critical success is *rolling your stat exactly*.
     * This might be recognizable to the player who rolled it, but means a delayed reaction at best for the rest of the table.
 
 * But then, some heroes walk into the bar..
@@ -119,8 +117,65 @@ title: The All-Stock Arm Wrestling Championship
 * So, what are our options?
     * Of course, we could do a simple opposed roll, as discussed above, with the GM rolling on behalf of the Player's opponent.
     * If we're playing Modern D&D, our human player gets an entirely average +0 modifier to add to their roll.
-    * Against the Ogre, [our player has a 30% chance of winning](https://anydice.com/program/1f8cf), and [a 66% chance of winning against the Goblin](https://anydice.com/program/1f8d0).
-    * These.. seem a little high.  We'd expect even our average Human Player to beat the Goblin, at least more than two-thirds of the time.
+    * Against the Ogre, [our Player has a 30% chance of winning](https://anydice.com/program/1f8cf), and [a 66% chance of winning against the Goblin](https://anydice.com/program/1f8d0).
+    * This seems wrong.  Our decidely average Human Player should still almost always beat the Goblin, definitely more than two-thirds of the time.
 
-* What if we're playing a roll-high-under system like Whitehack?
-    * 
+* What if we're playing a roll-high-under system?
+    * Well, the odds are a bit more realistic - [our Player has a 16% chance of beating the Ogre](https://anydice.com/program/1f97b), and [only an 8% chance of losing to the Goblin](https://anydice.com/program/1f97e).
+    * But our roll-high-under issues persist - there's a 43% chance the Human will *tie* against the Goblin, which feels a little odd.
+
+* So - here is our predicament.
+    * Our Human Player expects roll dice to determine whether they beat their opponent.
+    * The outcome should _make sense_, in game - the Human should almost always beat the Goblin and almost always lose to the Ogre.
+    * Our dice mechanic should be intuitive, decisive, and reasonably simple.  We want to avoid complicated math, lookup tables, or rerolls.
+
+* What if we ditch opposed rolls?
+    * What if only the player rolls, and this single roll determines the outcome?
+    * As long as the odds still make sense, this greatly simplifies our procedure, and focuses on the experience of players, not NPCS.
+
+* Modifiers
+    * This approach works pretty well with ability score modifiers - the GM can set a low difficulty for Goblin and a high difficulty for the Ogre.
+    * We could even use their opponent's strength as a static target to beat!  This gives us [a 90% chance of beating the Goblin and a 15% chance of beating the Ogre](https://anydice.com/program/1f981).
+    * To me, this feels much more accurate than opposed modifier rolls, and with a much simpler process to boot.
+
+* The main flaw with this approach is the same as before.
+    * Our modifier lacks granularity - we only see a 5% difference in odds between a STR 10 (+0) and a STR 13 (+1) character.
+
+* How about roll-under systems?
+    * A single roll-under check seems wrong - our STR 10 Human has 50/50 odds of winning.
+    * Worse, this entirely ignores the opponent - it's a coin flip, whether our Player is facing the Goblin or the Ogre.
+    * Honestly, this seems like the worst case scenario.  What player would be happy with this?
+
+* This isn't just a hypothetical.
+    * Recently, I've been playing [Electric Bastionland](https://bastionlandpress.com), which takes precisely this approach.
+    * "Madness", I thought!  Surely we need to bring in modifiers, or advantage/disadvantage, or SOMETHING to balance the odds of this roll.
+    * So I googled, and found [this article by Electric Bastionland's author, Chris McDowall, on his blog](https://www.bastionland.com/2020/03/difficulty-in-bastionland.html), which said SPECIFICALLY not to tack additional difficulty mechanics like advantage or modifiers.
+    * Instead, he proposed a different solution - and it's since become my favorite approach to this problem.
+
+* Go back to the fiction.
+    * Remember when our Ogre and Goblin were NPCs, and we could just pick a winner without rolling?
+    * We adjusted the fiction of the world, based on what made intuitive sense, and the story we wanted to tell.
+    * We can do something similar here, by _adjusting our definition of success and failure_.
+
+* As GM, when my Player sizes up the Ogre, I'll say something like this:
+    * The Ogre flexes her muscles as she towers over you.  The odds of you beating her in an arm-wrestling contest are close to nil.
+    * If you still want to try, roll a STR save.
+    * If you fail, she beats you handily.
+    * If you succeed?  You're still gonna lose, but you'll put up a good fight, and people will notice.
+    * If you roll a critical success?  Well, then you actually win it!
+
+* As GM, when my Player sizes up the Goblin, I'll say something like this:
+    * The tiny Goblin cowers before you.  He looks like you could pick him up with one hand.
+    * Even still, roll a STR save.
+    * If you succeed, you win effortlessly.
+    * If you fail?  You'll still win, but not quite as easily as you thought.
+    * If you roll a critical failure?  Somehow, this Goblin beats you, and you'll never hear the end of it.
+
+* There are several perks to this approach:
+    * The math is simple enough to calculate the odds on the fly, with no ties or rerolls.
+    * It doesn't require having detailed stats for NPC, just an intuitive sense of what _ought_ to happen.
+    * It still leaves the door for unlikely upsets, because what table doesn't love crowing over a crit.
+
+* This is the approach for me.
+    * Might not work for everyone!
+    * There are better opposed solutions for the more simulation-minded tables beyond what I outlined here.
