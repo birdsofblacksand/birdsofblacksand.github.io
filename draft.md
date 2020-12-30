@@ -47,7 +47,7 @@ Our Goblin has a modifier of **-4**, and our Ogre has a modifier of **+4**.  Aft
 
 Looking at the odds, though, our [Ogre will roll above the Goblin ~81% of the time](https://anydice.com/program/1f8b3).  But our Ogre is a beefcake and the Goblin is puny - how could the Goblin still win ~17% of the time?  
 
-Well, our modifier is compressing our ability scores across the 3-18 range, and we lose granularity.  For example, 10 vs. 13 STR is mechanically identical to 11 vs. 12 STR.  This compression becomes particularly evident with opposed rolls.
+Well, our modifier is compressing our ability scores from 3-18 into a relatively small range of modifiers, and we lose granularity.  For example, 10 vs. 13 STR is mechanically identical to 11 vs. 12 STR.  This compression becomes particularly evident with opposed rolls.
 
 ### Roll-Under: Rolling directly against our STR
 
@@ -63,15 +63,15 @@ We could add some kind of tiebreaker, say, comparing STR scores, whenever both c
 
 ### Roll-High-Under: Ability Score Blackjack
 
-There's another d20 mechanic called **roll-high-under**, used most notably in old-school-D&D-inspired [Whitehack](https://whitehackrpg.wordpress.com/).  Also known as "Blackjack" rolling, I describe this to players as "Price Is Right" rules - roll at-or-under your STR, *the higher the better*.
+There's another d20 mechanic called **roll-high-under**, used most notably in old-school-D&D-inspired [Whitehack](https://whitehackrpg.wordpress.com/).  Also known as "Blackjack" rolling, I describe this to players as "Price Is Right" rules - roll at-or-under your ability score, *the higher the better*.
 
 Unlike roll-under systems, we can resolve our opposed rolls if both succeed - the higher roll wins.  With roll-high-under, [our Goblin now only wins ~9% of the time](https://anydice.com/program/1f8c5), which feels a little more reasonable.
 
-Roll-high-under has other perks (see Whitehack's slick handling of Armor Class), but it's not without its faults.  For example, what happens if both contestants fail their rolls?  We might say the contestants are locked in struggle, and have them both reroll.  But imagine two STR 3 Goblins - [they'll both fail their STR check 72% of the time](https://anydice.com/program/1f8c7), and so might require several rerolls to determine a winner.
+Roll-high-under has other perks - see Whitehack's slick handling of Armor Class - but it's not without its faults.  For example, what happens if both contestants fail their rolls?  We might say the contestants are locked in struggle, and have them both reroll.  But imagine two STR 3 Goblins - [they'll both fail their STR check 72% of the time](https://anydice.com/program/1f8c7), and so might require several rerolls to determine a winner.
 
 But there's another, more practical problem with roll-high-under systems.  Despite its elegance, roll-high-under can be slow and unintuitive for players at the table.
 
-For example, how do we handle critical successes and fumbles?  In a roll-high system, rolling 20 is best and 1 is worst.  For roll-under systems, this is reversed - 1 good, 20 bad.  (This can be an adjustment for players raised on modern D&D, but it's still immediately recognizable the moment the die finishes rolling.)
+For example, how do we handle critical successes and fumbles?  In a roll-high system, rolling 20 is best and 1 is worst.  For roll-under systems, this is reversed - 1 good, 20 bad.  This can be an adjustment for players raised on modern D&D, but it's still immediately recognizable the moment the die finishes rolling.
 
 But for roll-high-under systems, a critical success is *rolling your ability score exactly*.  This might be recognizable to the player who rolled it, but often results in them double-checking their character sheet, and means a delayed reaction at best for the rest of the table.  It's a small detail, but can make a big difference in the energy and excitement of rolling dice.
 
@@ -81,7 +81,7 @@ Not just any hero either, but a Player Character, who's sitting at our game tabl
 
 Consider the case where the Goblin wins.  Sure, it's unlikely, but entirely possible.  So the GM explains: the Goblin and Ogre compete, and the Goblin emerges victorious.
 
-The players look at the GM - huh?  How did this happen?  _Why_ did this happen?  And "the Goblin just got lucky with a dice roll" is not a satisfactory explanation.
+The players look at the GM - huh?  Why did the Ogre lose?  _Why_ did the Goblin win?  "He just got lucky with the dice" is not a satisfactory explanation.
 
 The fiction matters.  Think quick.
 
@@ -100,7 +100,7 @@ If we wanted the upset as a plot device - and maybe had prepped some ideas to de
 
 ### Our hero enters the contest.
 
-The next challenger - a perfectly average Player Character!
+The next challenger - our perfectly average Player Character!
 
 ![An entirely average human](/images/average_human.jpg)
 
@@ -108,7 +108,7 @@ They rolled a STR of 10, entirely middle-of-the-road.
 
 We can't just declare a winner here - our Player expects to roll some dice to determine their fate.  What are our options?
 
-To start, we could do an opposed roll, with the GM rolling on behalf of their opponent.
+Well, we could do an opposed roll, with the GM rolling on behalf of their opponent.
 
 If we're playing Modern D&D, our Player gets a +0 modifier to add to their roll.  Against the Ogre, [our Player has a 30% chance of winning](https://anydice.com/program/1f8cf), and [a 66% chance of winning against the Goblin](https://anydice.com/program/1f8d0).  This.. seems wrong.  Even our decidely-average Player should still almost always beat the Goblin, at least more than two-thirds of the time.
 
@@ -116,7 +116,7 @@ What if we're playing a roll-high-under system?  Well, the odds are a bit more r
 
 So here is our predicament:
 
-* The Player expects roll dice to determine whether they beat their opponent.
+* The Player expects to roll dice to determine whether they beat their opponent.
 * The Player should almost always beat the Goblin and almost always lose to the Ogre.
 * Our process should be intuitive and decisive, and avoid complicated math and rerolls.
 * The odds should be easy to reckon, so players can decide if it's worth the risk.
@@ -174,12 +174,14 @@ When my Player sizes up the Goblin, I'll say something like this:
 There are several perks to this approach:
 
 * The math is simple enough to calculate the odds on the fly, with no ties or rerolls.
-* No need for ability scores for NPCs, just a sense of what _ought_ to happen.
-* It still leaves the door for unlikely upsets at a static 5%.
-
-Is this the most accurate way to model this encounter?  Not particularly.  But to me, these are stakes that sound fun and memorable for the Player, and I'm willing to sacrifice precision for compelling story outcomes that still feel fair enough.
+* No need for ability scores for NPCs, just a sense of what *ought* to happen.
+* It still leaves the door open for unlikely upsets at a static 5%.
 
 This approach also dovetails nicely with Electric Bastionland's "ability loss" mechanic, where ability scores are temporarily lowered as players take damage - so a good night's sleep could very well be the difference between winning and losing.
+
+Is this an accurate way to simulate this encounter?  Not particularly.  But to me, these are stakes that sound fun and memorable for the Player, and I'm willing to sacrifice precision for compelling story outcomes that still feel *fair enough* to the players.
+
+It's also important to be consistent with your rulings.  Once established, players will come to rely on these rulings when coming up with plans, so future arm-wrestling bouts against similar opponents should follow this same pattern.
 
 ### Do we really need opposed rolls?
 
