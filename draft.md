@@ -179,7 +179,7 @@ There are several perks to this approach:
 
 This approach also dovetails nicely with Electric Bastionland's "ability loss" mechanic, where ability scores are temporarily lowered as players take damage - so a good night's sleep could very well be the difference between winning and losing.
 
-Is this an accurate way to simulate this encounter?  Not particularly.  But to me, these are stakes that sound fun and memorable for the Player, and I'm willing to sacrifice precision for compelling story outcomes that still feel *fair enough* to the players.
+Is this an accurate way to simulate this encounter?  Not particularly.  But to me, these are stakes that sound fun and memorable, and I'm willing to sacrifice precision for compelling story outcomes that still feel *fair enough* to the players.
 
 It's also important to be consistent with your rulings.  Once established, players will come to rely on these rulings when coming up with plans, so future arm-wrestling bouts against similar opponents should follow this same pattern.
 
