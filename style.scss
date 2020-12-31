@@ -19,7 +19,7 @@ html {
 
 body {
   background: $darkGray;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $montserrat;
   color: $white;
 }
 
@@ -115,7 +115,6 @@ img {
 
 .date {
   font-style: italic;
-  color: $lightGray;
 }
 
 // Specify the color of the selection
@@ -190,7 +189,6 @@ img {
 
 .site-name {
   margin: 0;
-  color: $lightGray;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -200,7 +198,6 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $lightGray;
   font-size: 16px;
 
   @include mobile {
@@ -254,7 +251,6 @@ nav {
     margin: .5em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: $lightGray;
     font-style: italic;
   }
 
@@ -270,7 +266,7 @@ nav {
   table {
     th { font-weight: bold; }
     th, td {
-      border: 1px solid $black;
+      border: 1px solid $white;
       padding: 0.5em;
       text-align: center;
     }
