@@ -32,12 +32,6 @@ Our Goblin rolled a **12**, and our Ogre rolled **9**.  How do we incorporate ou
 
 For the last 20 years of D&D, we start by converting our ability score into a **modifier** - subtract 10, divide by 2, and round down, like so:
 
-| **STR** | Mod | **STR** | Mod | **STR** | Mod | **STR** | Mod |
-| **18**  | +4  | **14**  | +2  | **10**  |  0  |  **6**  | -2  |
-| **17**  | +3  | **13**  | +1  | **9**   | -1  |  **5**  | -3  |
-| **16**  | +3  | **12**  | +1  | **8**   | -1  |  **4**  | -3  |
-| **15**  | +2  | **11**  |  0  | **7**   | -2  |  **3**  | -4  |
-
 | **STR** | **18** | **17** | **16** | **15** | **14** | **13** | **12** | **11** |
 |   Mod   |   +4   |   +3   |   +3   |   +2   |   +2   |   +1   |   +1   |   +0   |
 | **STR** | **10** |  **9** |  **8** |  **7** |  **6** |  **5** |  **4** |  **3** |
