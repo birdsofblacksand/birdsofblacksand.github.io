@@ -16,7 +16,7 @@ In the first corner, this pitiful little Goblin!
 
 In the next corner, this mighty Ogre!
 
-![A massive, flexing ogre](/images/ogre.jpg)
+![A massive, flexing ogre](/images/ogre.png)
 
 * She rolled all sixes on her STR roll
 * She's as strong as the strongest ~6% of humans
@@ -100,7 +100,7 @@ If we wanted the upset as a plot device - and maybe had prepped some ideas to de
 
 The next challenger - our perfectly average Player Character!
 
-![An entirely average human](/images/average_human.jpg)
+![An entirely average human](/images/average_human.png)
 
 They rolled a STR of 10, entirely middle-of-the-road.
 
