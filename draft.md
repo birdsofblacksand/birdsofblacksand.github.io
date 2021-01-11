@@ -38,7 +38,12 @@ For the last 20 years of D&D, we start by converting our ability score into a **
 | **16**  | +3  | **12**  | +1  | **8**   | -1  |  **4**  | -3  |
 | **15**  | +2  | **11**  |  0  | **7**   | -2  |  **3**  | -4  |
 
-Modifiers range from **-4** to **+4**, which we add to our d20 roll when making ability checks.
+| **STR** | **18** | **17** | **16** | **15** | **14** | **13** | **12** | **11** |
+|   Mod   |   +4   |   +3   |   +3   |   +2   |   +2   |   +1   |   +1   |   +0   |
+| **STR** | **10** |  **9** |  **8** |  **7** |  **6** |  **5** |  **4** |  **3** |
+|   Mod   |   +0   |   -1   |   -1   |   -2   |   -2   |   -3   |   -3   |   -4   |
+
+Modifiers range from **+4** to **-4**, which we add to our d20 roll when making ability checks.
 
 When two characters roll against each other (an **opposed roll**), the highest roll+modifier wins (a **roll-high** system).  Once we've got these modifiers captured on the character sheet, this approach is straightforward and intuitive - add your modifier, higher is better.
 
