@@ -271,8 +271,8 @@ nav {
       padding: 0.5em;
       text-align: center;
     }
-    tr:nth-child(even) { background: $warmGray; }
-    tr:nth-child(odd) { background: $warmerGray; }
+    tr:nth-child(even) { background: $warmerGray; }
+    tr:nth-child(odd) { background: $warmestGray; }
   }
 }
 
