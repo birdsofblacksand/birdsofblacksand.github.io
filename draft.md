@@ -22,7 +22,7 @@ In the next corner, this mighty Ogre!
 * She's as strong as the strongest ~6% of humans
 * She's a lock to win this.
 
-So, how do we determine who wins the arm wrestling contest?
+### So, who wins?
 
 We could just compare strength scores directly, but then the Ogre ALWAYS wins.  Surely there's some set of circumstances, however unlikely, where the Goblin wins?  So we'll randomize the outcome by having each contestant roll a **d20**.
 
@@ -32,12 +32,11 @@ Our Goblin rolled a **12**, and our Ogre rolled **9**.  How do we incorporate ou
 
 For the last 20 years of D&D, we start by converting our ability score into a **modifier** - subtract 10, divide by 2, and round down, like so:
 
-|  STR   | Mod |  STR   | Mod |  STR   | Mod |  STR  | Mod |
-|--------|-----|--------|-----|--------|-----|-------|-----|
-| **18** | +4  | **14** | +2  | **10** |  0  | **6** | -2  |
-| **17** | +3  | **13** | +1  | **9**  | -1  | **5** | -3  |
-| **16** | +3  | **12** | +1  | **8**  | -1  | **4** | -3  |
-| **15** | +2  | **11** |  0  | **7**  | -2  | **3** | -4  |
+| **STR** | Mod | **STR** | Mod | **STR** | Mod | **STR** | Mod |
+| **18**  | +4  | **14**  | +2  | **10**  |  0  |  **6**  | -2  |
+| **17**  | +3  | **13**  | +1  | **9**   | -1  |  **5**  | -3  |
+| **16**  | +3  | **12**  | +1  | **8**   | -1  |  **4**  | -3  |
+| **15**  | +2  | **11**  |  0  | **7**   | -2  |  **3**  | -4  |
 
 Modifiers range from **-4** to **+4**, which we add to our d20 roll when making ability checks.
 
