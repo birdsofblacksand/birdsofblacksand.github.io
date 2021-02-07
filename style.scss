@@ -111,10 +111,14 @@ img {
 
 img.left {
   float: left;
+  width: 40%;
+  margin-right: 5%;
 }
 
 img.right {
   float: right;
+  width: 40%;
+  margin-left: 5%;
 }
 
 // Fixes images in popup boxes from Google Translate
