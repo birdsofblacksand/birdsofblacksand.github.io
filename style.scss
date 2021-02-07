@@ -114,24 +114,22 @@ img {
   max-width: 100%;
 }
 
-img.left {
-  float: left;
-  width: 40%;
-
-  margin-right: 5%;
-  padding: 15px;
+img.left img.right {
+  padding: 10px;
   background: white;
   min-width: 120px;
 }
 
+img.left {
+  margin-right: 5%;
+  float: left;
+  width: 40%;
+}
+
 img.right {
+  margin-left: 3%;
   float: right;
   width: 40%;
-
-  margin-left: 5%;
-  padding: 15px;
-  background: white;
-  min-width: 120px;
 }
 
 // Fixes images in popup boxes from Google Translate
