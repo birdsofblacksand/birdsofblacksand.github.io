@@ -8,9 +8,9 @@ Imagine our table is hosting an arm-wrestling contest.  All of our contestants h
 
 ---
 
-<img style="width: 35%;" class="left" alt="A pitiful little goblin" src="/images/goblin.png" />
-
 ###### In the first corner, this pitiful little Goblin!
+
+<img style="width: 35%;" class="left" alt="A pitiful little goblin" src="/images/goblin.png" />
 
 * He rolled all ones on his STR roll
 * He's as weak as the weakest ~6% of humans
@@ -18,9 +18,9 @@ Imagine our table is hosting an arm-wrestling contest.  All of our contestants h
 
 ---
 
-<img style="width: 40%;" class="right" alt="A massive, flexing ogre" src="/images/ogre.png" />
-
 ###### In the next corner, this mighty Ogre!
+
+<img style="width: 40%;" class="right" alt="A massive, flexing ogre" src="/images/ogre.png" />
 
 * She rolled all sixes on her STR roll
 * She's as strong as the strongest ~6% of humans

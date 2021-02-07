@@ -63,10 +63,6 @@ h4 {
   font-size: 18px;
 }
 
-h6 {
-  margin-top: 25px;
-}
-
 p {
   margin: 15px 0;
 }
@@ -121,19 +117,26 @@ img {
 img.left img.right {
   padding: 10px;
   background: white;
-  min-width: 120px;
+  min-width: 140px;
 }
 
-img.left {
-  margin-right: 5%;
-  float: left;
-  width: 40%;
-}
+@media screen and (min-width: 500px) {
+  img.left {
+    margin-right: 5%;
+    float: left;
+    width: 40%;
+  }
 
-img.right {
-  margin-left: 3%;
-  float: right;
-  width: 40%;
+  img.right {
+    margin-left: 3%;
+    float: right;
+    width: 40%;
+  }
+
+  h6 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 }
 
 // Fixes images in popup boxes from Google Translate
