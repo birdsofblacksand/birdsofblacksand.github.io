@@ -130,6 +130,9 @@ img.left img.right {
 }
 
 @media screen and (min-width: 500px) {
+  img.35percent { width: 35%; }
+  img.40percent { width: 40%; }
+
   img.left {
     margin-right: 5%;
     float: left;
