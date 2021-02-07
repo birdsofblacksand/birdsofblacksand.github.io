@@ -10,7 +10,7 @@ Imagine our table is hosting an arm-wrestling contest.  All of our contestants h
 
 ###### In the first corner, this pitiful little Goblin!
 
-<img class="left 35percent" alt="A pitiful little goblin" src="/images/goblin.png" />
+<img class="left w35" alt="A pitiful little goblin" src="/images/goblin.png" />
 
 * He rolled all ones on his STR roll
 * He's as weak as the weakest ~6% of humans
@@ -20,7 +20,7 @@ Imagine our table is hosting an arm-wrestling contest.  All of our contestants h
 
 ###### In the next corner, this mighty Ogre!
 
-<img class="right 40percent" alt="A massive, flexing ogre" src="/images/ogre.png" />
+<img class="right w40" alt="A massive, flexing ogre" src="/images/ogre.png" />
 
 * She rolled all sixes on her STR roll
 * She's as strong as the strongest ~6% of humans
