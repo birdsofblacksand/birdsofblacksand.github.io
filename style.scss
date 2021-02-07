@@ -115,9 +115,18 @@ img {
 }
 
 img.left img.right {
-  padding: 10px;
+  padding: 15px;
   background: white;
   min-width: 140px;
+}
+
+@media screen and (max-width: 500px) {
+  img.left img.right {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (min-width: 500px) {
