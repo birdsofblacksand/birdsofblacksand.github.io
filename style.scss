@@ -107,6 +107,7 @@ strong, b {
 
 hr {
     width: 100%;
+    border: 0;
 }
 
 img {
@@ -116,13 +117,21 @@ img {
 img.left {
   float: left;
   width: 40%;
+
   margin-right: 5%;
+  padding: 15px;
+  background: white;
+  min-width: 120px;
 }
 
 img.right {
   float: right;
   width: 40%;
+
   margin-left: 5%;
+  padding: 15px;
+  background: white;
+  min-width: 120px;
 }
 
 // Fixes images in popup boxes from Google Translate

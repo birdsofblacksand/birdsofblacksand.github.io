@@ -8,7 +8,7 @@ Imagine our table is hosting an arm-wrestling contest.  All of our contestants h
 
 ---
 
-<img class="left" alt="A pitiful little goblin" src="/images/goblin.png" />
+<img style="width: 30px;" class="left" alt="A pitiful little goblin" src="/images/goblin.png" />
 
 In the first corner, this pitiful little Goblin!
 
@@ -18,7 +18,7 @@ In the first corner, this pitiful little Goblin!
 
 ---
 
-<img class="right" alt="A massive, flexing ogre" src="/images/ogre.png" />
+<img style="width: 40px;" class="right" alt="A massive, flexing ogre" src="/images/ogre.png" />
 
 In the next corner, this mighty Ogre!
 
